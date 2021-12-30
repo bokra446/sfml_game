@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe сборка активного файла",
+            "command": "C:\\mingw32\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}", "${fileDirname}\\tinyxml2.cpp", "${fileDirname}\\level.cpp", "${fileDirname}\\enemy.cpp", "${fileDirname}\\lvls.cpp", "${fileDirname}\\v.cpp",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-IC:\\SFML-2.5.1\\include",
+                "-LC:\\SFML-2.5.1\\lib",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+            ],
+            "options": {
+                "cwd": "${fileDirname}",
+                "PATH" : "C:/mingw32/bin;C:/SFML-2.5.1/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}

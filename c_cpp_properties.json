@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:\\SFML-2.5.1\\include"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/mingw32/bin/gcc.exe",
+            "cStandard": "c11",
+			"cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}
